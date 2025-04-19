@@ -4,8 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import "../src/css/App.css";
 
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
+import Layout from "./components/Layout";
 
 import HomePage from "./pages/HomePage";
 import Services from "./pages/Services";
@@ -16,15 +15,15 @@ import LegalNotice from "./pages/LegalNotice";
 function App() {
   return (
     <Router>
-      <Navbar />
       <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/mentions-legales" element={<LegalNotice />} />
+        <Route path="/" element={<Layout />}>
+          <Route index element={<HomePage />} />
+          <Route path="services" element={<Services />} />
+          <Route path="portfolio" element={<Portfolio />} />
+          <Route path="contact" element={<Contact />} />
+          <Route path="legalnotice" element={<LegalNotice />} />
+        </Route>
       </Routes>
-      <Footer />
     </Router>
   );
 }
