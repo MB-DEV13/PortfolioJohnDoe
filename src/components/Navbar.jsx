@@ -43,7 +43,11 @@ function MyNavbar() {
             >
               CONTACT
             </Nav.Link>
-            <Nav.Link as={Link} to="/Legal" className={getLinkClass("/Legal")}>
+            <Nav.Link
+              as={Link}
+              to="/LegalNotice"
+              className={getLinkClass("/LegalNotice")}
+            >
               MENTIONS LEGALES
             </Nav.Link>
           </Nav>
