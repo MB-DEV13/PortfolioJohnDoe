@@ -1,6 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
+import GithubProfileModal from "../components/GithubProfileModal";
 
 function HomePage() {
+  const [showModal, setShowModal] = useState(false);
+
   return (
     <>
       <header className="hero text-white text-center d-flex align-items-center justify-content-center position-relative">
@@ -9,7 +12,14 @@ function HomePage() {
           <h1 className="display-1 fw-bold">Bonjour, je suis John Doe</h1>
           <h2 className="display-3 fw-bold mb-4">Développeur web full stack</h2>
 
-          <button className="btn btn-danger">En savoir plus</button>
+          <button className="btn btn-danger" onClick={() => setShowModal(true)}>
+            Voir le profil GitHub
+          </button>
+
+          <GithubProfileModal
+            show={showModal}
+            handleClose={() => setShowModal(false)}
+          />
         </div>
       </header>
 
