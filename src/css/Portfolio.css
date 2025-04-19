@@ -1,0 +1,21 @@
+.portfolio-hero {
+  background-image: url("/public/images/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  width: 100%;
+}
+
+.mx-auto {
+  width: 30%;
+  border-top: 3px solid #0d6efd;
+}
+
+hr {
+  opacity: 1;
+}
+
+.card-img-top {
+  height: 300px;
+  object-fit: cover;
+}
