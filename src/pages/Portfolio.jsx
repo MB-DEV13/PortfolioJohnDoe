@@ -61,7 +61,7 @@ const Portfolio = () => {
           <Row className="g-4">
             {projects.map((project, index) => (
               <Col key={index} md={4}>
-                <Card className="h-100 shadow-sm card-hover">
+                <Card className="h-100 shadow-sm card card-hover">
                   <Card.Img
                     variant="top"
                     src={project.img}
