@@ -18,6 +18,18 @@ Transparence background
   background-color: rgba(255, 255, 255, 0.2);
 }
 
+/*
+Gestion des hover
+*/
+.card-hover:hover {
+  background-color: #efefef;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
+}
+
+.btn-hover:hover {
+  background-color: #3887fe !important;
+}
+
 .section-title {
   border-bottom: 3px solid #0d6efd;
   padding-bottom: 1rem;
@@ -32,19 +44,19 @@ Graduation compétences
 }
 
 .bg-info {
-  width: 90%;
+  width: 80%;
 }
 
 .bg-warning {
-  width: 10%;
+  width: 70%;
 }
 
 .bg-success {
-  width: 0%;
+  width: 60%;
 }
 
 .bg-primary {
-  width: 20%;
+  width: 50%;
 }
 
 /*

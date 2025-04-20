@@ -22,27 +22,32 @@ const Contact = () => {
                 type="text"
                 className="form-control mb-2"
                 placeholder="Votre nom"
+                required
               />
               <input
                 type="email"
                 className="form-control mb-2"
                 placeholder="Votre adresse email"
+                required
               />
               <input
                 type="tel"
                 className="form-control mb-2"
                 placeholder="Votre numéro de téléphone"
+                required
               />
               <input
                 type="text"
                 className="form-control mb-2"
                 placeholder="Sujet"
+                required
               />
 
               <div className="flex-grow-1 d-flex flex-column mb-3">
                 <textarea
                   className="form-control h-100"
                   placeholder="Votre message"
+                  required
                 ></textarea>
               </div>
 

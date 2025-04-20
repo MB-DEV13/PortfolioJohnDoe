@@ -33,7 +33,12 @@ function Footer() {
               >
                 <i className="bi bi-github fs-4"></i>
               </a>
-              <a href="https://x.com/johndoe" className="text-white">
+              <a
+                href="https://x.com/johndoe"
+                className="text-white "
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i className="bi bi-twitter fs-4"></i>
               </a>
             </div>

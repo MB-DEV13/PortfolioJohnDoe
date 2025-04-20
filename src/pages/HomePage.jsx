@@ -60,19 +60,19 @@ function HomePage() {
             <div className="progress mb-3">
               <div className="progress-bar bg-danger"></div>
             </div>
-            <div className="mb-2">CSS3 90%</div>
+            <div className="mb-2">CSS3 80%</div>
             <div className="progress mb-3">
               <div className="progress-bar bg-info"></div>
             </div>
-            <div className="mb-2">JAVASCRIPT 10%</div>
+            <div className="mb-2">JAVASCRIPT 70%</div>
             <div className="progress mb-3">
               <div className="progress-bar bg-warning"></div>
             </div>
-            <div className="mb-2">PHP 0%</div>
+            <div className="mb-2">PHP 60%</div>
             <div className="progress mb-3">
               <div className="progress-bar bg-success"></div>
             </div>
-            <div className="mb-2">REACT 20%</div>
+            <div className="mb-2">REACT 50%</div>
             <div className="progress mb-3">
               <div className="progress-bar bg-primary"></div>
             </div>

@@ -22,7 +22,7 @@ const Services = () => {
           {/* Cartes de services */}
           <Row className="g-4">
             <Col md={4}>
-              <Card className="text-center h-100 shadow-sm">
+              <Card className="text-center h-100 shadow-sm card-hover">
                 <Card.Body>
                   <FaPenNib size={32} className="mb-3 text-primary" />
                   <Card.Title className="fw-bold">UX Design</Card.Title>
@@ -38,7 +38,7 @@ const Services = () => {
             </Col>
             {/* Deuxième carte */}
             <Col md={4}>
-              <Card className="text-center h-100 shadow-sm">
+              <Card className="text-center h-100 shadow-sm card-hover">
                 <Card.Body>
                   <FaCode size={32} className="mb-3 text-primary" />
                   <Card.Title className="fw-bold">Développement web</Card.Title>
@@ -53,7 +53,7 @@ const Services = () => {
             </Col>
             {/* Troisième carte */}
             <Col md={4}>
-              <Card className="text-center h-100 shadow-sm">
+              <Card className="text-center h-100 shadow-sm card-hover">
                 <Card.Body>
                   <FaSearch size={32} className="mb-3 text-primary" />
                   <Card.Title className="fw-bold">Référencement</Card.Title>

@@ -61,7 +61,7 @@ const Portfolio = () => {
           <Row className="g-4">
             {projects.map((project, index) => (
               <Col key={index} md={4}>
-                <Card className="h-100 shadow-sm">
+                <Card className="h-100 shadow-sm card-hover">
                   <Card.Img
                     variant="top"
                     src={project.img}
@@ -70,7 +70,7 @@ const Portfolio = () => {
                   <Card.Body className="text-center">
                     <Card.Title>{project.title}</Card.Title>
                     <Card.Text>{project.subtitle}</Card.Text>
-                    <Button variant="primary">Voir le site</Button>
+                    <Button variant="primary btn-hover">Voir le site</Button>
                   </Card.Body>
                   <Card.Footer className="text-muted text-center portfolio-footer">
                     {project.tech}
