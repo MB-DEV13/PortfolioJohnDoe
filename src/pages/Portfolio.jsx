@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import "../css/Portfolio.css";
 
+// Liste des projets à afficher dans le portfolio
 const projects = [
   {
     title: "Fresh Food",

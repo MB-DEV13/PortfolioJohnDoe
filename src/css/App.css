@@ -11,6 +11,9 @@ header {
   background-position: center;
 }
 
+/*
+Transparence background
+*/
 .overlay {
   background-color: rgba(255, 255, 255, 0.2);
 }
@@ -21,6 +24,9 @@ header {
   margin-bottom: 3rem;
 }
 
+/*
+Graduation compétences
+*/
 .bg-danger {
   width: 90%;
 }
@@ -41,6 +47,9 @@ header {
   width: 20%;
 }
 
+/*
+icones footer
+*/
 .bi {
   opacity: 0.3;
   font-size: 2rem;

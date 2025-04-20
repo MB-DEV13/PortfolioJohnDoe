@@ -15,6 +15,9 @@ hr {
   opacity: 1;
 }
 
+/*
+Resize image
+*/
 .card-img-top {
   height: 300px;
   object-fit: cover;

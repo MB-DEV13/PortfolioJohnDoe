@@ -6,8 +6,10 @@ import "../css/Services.css";
 const Services = () => {
   return (
     <div>
+      {/* Bandeau visuel bleu */}
       <div className="services-hero" />
 
+      {/* Contenu des services */}
       <div className="bg-light py-5">
         <Container>
           <div className="text-center mb-5">
@@ -17,6 +19,7 @@ const Services = () => {
             </p>
             <hr className="mx-auto" />
           </div>
+          {/* Cartes de services */}
           <Row className="g-4">
             <Col md={4}>
               <Card className="text-center h-100 shadow-sm">
@@ -33,6 +36,7 @@ const Services = () => {
                 </Card.Body>
               </Card>
             </Col>
+            {/* Deuxième carte */}
             <Col md={4}>
               <Card className="text-center h-100 shadow-sm">
                 <Card.Body>
@@ -47,6 +51,7 @@ const Services = () => {
                 </Card.Body>
               </Card>
             </Col>
+            {/* Troisième carte */}
             <Col md={4}>
               <Card className="text-center h-100 shadow-sm">
                 <Card.Body>

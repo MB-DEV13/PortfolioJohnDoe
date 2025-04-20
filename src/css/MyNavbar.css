@@ -1,3 +1,6 @@
+/*
+Custom active navbar
+*/
 .active-link {
   font-weight: bold;
   position: relative;
@@ -15,6 +18,9 @@
   border-radius: 2px;
 }
 
+/*
+Custom navbar background color
+*/
 .navbar .nav-link {
   color: white !important;
 }

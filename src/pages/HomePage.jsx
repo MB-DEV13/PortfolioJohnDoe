@@ -6,6 +6,7 @@ function HomePage() {
 
   return (
     <>
+      {/* Hero section */}
       <header className="hero text-white text-center d-flex align-items-center justify-content-center position-relative">
         <div className="overlay position-absolute top-0 start-0 w-100 h-100"></div>
         <div className="position-relative">

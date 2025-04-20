@@ -2,20 +2,20 @@ import React from "react";
 import { Accordion } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
+import "../css/LegalNotice.css";
 
 const LegalNotice = () => {
   return (
     <div className="d-flex flex-column">
       {/* Contenu principal */}
+
       <div className="container mt-5 mb-5 flex-grow-1">
         <h2 className="text-center fw-bold mb-4">Mentions légales</h2>
-        <hr
-          className="mx-auto mb-5"
-          style={{ width: "200px", borderTop: "3px solid #2c6ef5" }}
-        />
-
+        <hr className="mx-auto mb-5" />
         <Accordion defaultActiveKey="0" flush>
           <Accordion.Item eventKey="0">
+            {/* Premiere section */}
+
             <Accordion.Header>Éditeur du site</Accordion.Header>
             <Accordion.Body>
               <h5>John Doe</h5>
@@ -34,6 +34,8 @@ const LegalNotice = () => {
             </Accordion.Body>
           </Accordion.Item>
 
+          {/* Deuxième section */}
+
           <Accordion.Item eventKey="1">
             <Accordion.Header>Hébergeur</Accordion.Header>
             <Accordion.Body>
@@ -51,6 +53,8 @@ const LegalNotice = () => {
               </p>
             </Accordion.Body>
           </Accordion.Item>
+
+          {/* Troisieme section */}
 
           <Accordion.Item eventKey="2">
             <Accordion.Header>Crédits</Accordion.Header>

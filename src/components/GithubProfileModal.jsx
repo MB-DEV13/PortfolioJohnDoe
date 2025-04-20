@@ -23,11 +23,16 @@ const GithubProfileModal = ({ show, handleClose }) => {
         <div className="text-start">
           <p>
             <i className="bi bi-person-fill me-2"></i>{" "}
-            <a href="https://github.com/MB-DEV13">John Doe</a>
+            <a
+              href="https://github.com/MB-DEV13"
+              target="_blank"
+              rel="noreferrer"
+            >
+              John Doe
+            </a>
           </p>
           <p>
-            <i className="bi bi-geo-alt-fill me-2"></i>{" "}
-            {/* Lieu vide volontairement */}
+            <i className="bi bi-geo-alt-fill me-2"></i> Marseille, France
           </p>
           <p>
             <i className="bi bi-card-text me-2"></i> As we all know, John Doe's
