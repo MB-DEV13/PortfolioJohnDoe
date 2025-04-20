@@ -30,6 +30,10 @@ Gestion des hover
   background-color: #3887fe !important;
 }
 
+.bi:hover {
+  color: #8a949d;
+}
+
 .section-title {
   border-bottom: 3px solid #0d6efd;
   padding-bottom: 1rem;
@@ -63,6 +67,6 @@ Graduation compétences
 icones footer
 */
 .bi {
-  opacity: 0.3;
-  font-size: 2rem;
+  color: #495057;
+  font-size: 2.5rem;
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import "../css/Footer.css";
 
 function Footer() {
   return (
@@ -21,7 +22,7 @@ function Footer() {
                 href="https://www.linkedin.com/in/johndoe"
                 className="text-white me-3"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="nofollow noopener noreferrer"
               >
                 <i className="bi bi-linkedin fs-4"></i>
               </a>
@@ -29,7 +30,7 @@ function Footer() {
                 href="https://github.com/johndoe"
                 className="text-white me-3"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="nofollow noopener noreferrer"
               >
                 <i className="bi bi-github fs-4"></i>
               </a>
@@ -37,7 +38,7 @@ function Footer() {
                 href="https://x.com/johndoe"
                 className="text-white "
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="nofollow noopener noreferrer"
               >
                 <i className="bi bi-twitter fs-4"></i>
               </a>
@@ -46,22 +47,44 @@ function Footer() {
           <div className="col-md-4">
             <h5>Liens utiles</h5>
             <ul className="list-unstyled">
-              <li>Accueil</li>
-              <li>Services</li>
-              <li>Portfolio</li>
-              <li>Me contacter</li>
-              <li>Mentions légales</li>
+              <li>
+                <a href="/">Accueil</a>
+              </li>
+              <li>
+                <a href="/Services">Services</a>
+              </li>
+              <li>
+                <a href="/Portfolio">Portfolio</a>
+              </li>
+              <li>
+                <a href="/Contact">Me contacter</a>
+              </li>
+              <li>
+                <a href="/LegalNotice">Mentions légales</a>
+              </li>
             </ul>
           </div>
           <div className="col-md-4">
             <h5>Mes dernières réalisations</h5>
             <ul className="list-unstyled">
-              <li>Fresh Food</li>
-              <li>Restaurant Akira</li>
-              <li>Espace bien être</li>
-              <li>SEO</li>
-              <li>Création d'une API</li>
-              <li>Maquette d’un site</li>
+              <li>
+                <a href="/Portfolio">Fresh Food</a>
+              </li>
+              <li>
+                <a href="/Portfolio">Restaurant Akira</a>
+              </li>
+              <li>
+                <a href="/Portfolio">Espace bien être</a>
+              </li>
+              <li>
+                <a href="/Portfolio">SEO</a>
+              </li>
+              <li>
+                <a href="/Portfolio">Création d'une API</a>
+              </li>
+              <li>
+                <a href="/Portfolio">Maquette d’un site</a>
+              </li>
             </ul>
           </div>
         </div>

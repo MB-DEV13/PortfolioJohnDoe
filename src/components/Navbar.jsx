@@ -18,37 +18,37 @@ function MyNavbar() {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarNav" />
         <Navbar.Collapse id="navbarNav">
-          <Nav className="ms-auto">
+          <Nav className="ms-auto text-uppercase">
             <Nav.Link as={Link} to="/" className={getLinkClass("/")}>
-              HOME
+              home
             </Nav.Link>
             <Nav.Link
               as={Link}
               to="/Services"
               className={getLinkClass("/Services")}
             >
-              SERVICES
+              services
             </Nav.Link>
             <Nav.Link
               as={Link}
               to="/Portfolio"
               className={getLinkClass("/Portfolio")}
             >
-              PORTFOLIO
+              portfolio
             </Nav.Link>
             <Nav.Link
               as={Link}
               to="/Contact"
               className={getLinkClass("/Contact")}
             >
-              CONTACT
+              contact
             </Nav.Link>
             <Nav.Link
               as={Link}
               to="/LegalNotice"
               className={getLinkClass("/LegalNotice")}
             >
-              MENTIONS LEGALES
+              mentions legales
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
