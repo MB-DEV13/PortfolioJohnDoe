@@ -19,10 +19,9 @@ Et de bien avoir les versions suivantes :
 ### Instructions d'installation et de lancement
 
 -> Ouvrir le dossier dans VSCODE
--> Importer les dépendances si besoins
 -> Ouvrir le Terminal de VSCODE
--> Executer la commande "cd portfolio" si vous n'êtes pas déjà dans le dossier
--> Executer la commande "npm start"
+-> Importer les dépendances avec la commande "npm install"
+-> Executer la commande "npm start" pour lancer le projet
 
 #### Lien GitHub
 
